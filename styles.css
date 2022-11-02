@@ -7,6 +7,8 @@ h1 {
   
 button {
     background-color: #4CAF50; /* Green */
+    position: absolute;
+    left: 50%;
     border: none;
     color: white;
     padding: 15px 32px;
