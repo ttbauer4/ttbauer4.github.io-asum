@@ -17,3 +17,7 @@ button {
     display: inline-block;
     font-size: 16px;
   }
+
+iframe {
+    display: block;
+}
