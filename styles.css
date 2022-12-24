@@ -1,7 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
     background-image: url('/images/holiday-post-card.png');
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: 50% auto;
     background-position-x: center;
     background-position-y: center;
 }
@@ -35,7 +39,7 @@ a {
     text-decoration: underline;
 }
 
-.row {
+.row:after {
     content: "";
     display: table;
     clear: both;
