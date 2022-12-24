@@ -1,9 +1,14 @@
+html {
+    background-image: url('/images/holiday-post-card.png');
+    background-repeat: no-repeat;
+}
+
 h1 {
     color: #000000;
     font-family: verdana;
     font-size: 20px;
     text-align: center;
-  }
+}
   
 button {
     background-color: #4CAF50; /* Green */
@@ -16,7 +21,7 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
+}
 
 iframe {
     display: block;
