@@ -2,12 +2,12 @@
   box-sizing: border-box;
 }
 
-html {
+.background {
     background-image: url('/images/holiday-post-card.png');
     background-repeat: no-repeat;
-    background-size: 50% auto;
+    background-size: 90% auto;
     background-position-x: center;
-    background-position-y: bottom;
+    opacity: 0.5;
 }
 
 h1 {
