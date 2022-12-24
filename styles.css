@@ -5,6 +5,13 @@
 h1 {
     color: #000000;
     font-family: verdana;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family: verdana;
     font-size: 20px;
     text-align: center;
 }
@@ -29,6 +36,7 @@ iframe {
 a {
     color: #0000ff;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 .row:after {
