@@ -1,6 +1,9 @@
 html {
     background-image: url('/images/holiday-post-card.png');
     background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position-x: center;
+    background-position-y: center;
 }
 
 h1 {
@@ -30,4 +33,25 @@ iframe {
 a {
     color: #0000ff;
     text-decoration: underline;
+}
+
+.row {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 50%;
+  border-color: maroon;
+}
+
+.right {
+  width: 50%;
+  border-color: maroon;
 }
