@@ -17,11 +17,11 @@ a {
 }
 
 .ltree {
-  background-color:gray;
+  background-color:lightgrey;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
   text-align: center;
   cursor: pointer;
-  
-  margin: auto;
+  display:inline-block;
+  margin: 50px 7px;
 }
