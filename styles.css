@@ -1,3 +1,8 @@
+html {
+  min-height: 100%;
+  margin:0;
+}
+
 body {
   background: rgb(0, 0, 0);
   background: linear-gradient(
@@ -6,9 +11,8 @@ body {
     #6b705c 100%
   );
   background-repeat: no-repeat;
+  min-height: 100%;
   margin:0;
-  height: 100%;
-  width: 100%;
 }
 
 .headerImage {
