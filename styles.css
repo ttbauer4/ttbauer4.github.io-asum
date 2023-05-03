@@ -1,27 +1,73 @@
-h1 {
-  color: #000000;
-  font-family: verdana;
-  font-size: 20px;
+body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    #a5a58d 0%,
+    #6b705c 100%
+  );
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.headerImage {
+  border-radius: 50%;
+}
+
+.headerImageContainer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.headerText {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color:rgb(235, 235, 235);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.75rem;
+}
+
+.bodyText {
+  display: flex;
+  align-content: center;
+  justify-content: center;
   text-align: center;
+  color:rgb(57, 57, 57);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
 }
 
-iframe {
-  display: block;
-  width:100%;
-  height:800px;
+.tree {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border: 1px white solid;
+  background-color: #8c3131;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  color: rgb(235, 235, 235);
+  margin: 30px;
+  padding: 30px;
 }
 
-a {
-  color: #0000ff;
-  text-decoration: underline;
+.tree:hover {
+  transform: scale(1.02);
+  box-shadow: 5px 5px 10px 2px rgba(0,0,0,8);
 }
 
-.ltree {
-  background-color:lightgrey;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 20px;
-  text-align: center;
-  cursor: pointer;
-  display:inline-block;
-  margin: 50px 7px;
+hr {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.link {
+  color: rgb(57, 57, 57);
+}
+
+.link:hover {
+  color: darkslateblue;
 }
