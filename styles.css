@@ -71,3 +71,22 @@ hr {
 .link:hover {
   color: darkslateblue;
 }
+
+.footerImageContainer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 400px;
+  margin-top: 50px;
+}
+
+.imageCredit {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  color:rgb(57, 57, 57);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.5rem;
+  margin-bottom: 100px;
+}
